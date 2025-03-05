@@ -1,6 +1,6 @@
 export function showCurrencies(currencies) {
     const selectElement = document.getElementById("base-currency");
-    selectElement.innerHTML = ""; // Limpiar las opciones previas
+    selectElement.innerHTML = ""; 
 
     currencies.forEach(currency => {
         const option = document.createElement("option");
@@ -25,7 +25,7 @@ export function showExchangeRates(rates, baseCurrency, date) {
     }
 
     const tableBody = table.querySelector("tbody");
-    tableBody.innerHTML = ""; // Limpiar tabla
+    tableBody.innerHTML = "";
 
     const baseRow = document.createElement("tr");
     const baseCellCurrency = document.createElement("td");
