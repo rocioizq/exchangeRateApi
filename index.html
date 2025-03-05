@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Exchange Rates</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <form id="exchange-form">
+                <h1>Currency Rates</h1>
+
+                <div class="inputs">
+                    <div class="input-group">
+                        <select id="base-currency"></select>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="date" id="date" name="date">
+                    </div>
+                </div>
+                <button type="submit" class="convert-btn">Get Rates</button>
+            
+                <div id="result" class="result">
+                    <div class="result-container">
+                     <table class="exchange-table">
+                        <tbody>
+                           <!-- <tr><td>1 EURO = 1 USD</td><td>1 EURO = 0.85 GBP</td></tr>
+                            <tr><td>1 EURO = 130 JPY</td><td>1 EURO = 1.10 CAD</td></tr>
+                            <tr><td>1 EURO = 4.5 BRL</td><td>1 EURO = 20 MXN</td></tr>
+                            <tr><td>1 EURO = 1.5 AUD</td><td>1 EURO = 1.2 CHF</td></tr>
+                            <tr><td>1 EURO = 6.5 CNY</td><td>1 EURO = 75 INR</td></tr>
+                            <tr><td>1 EURO = 15 ZAR</td><td>1 EURO = 1.8 SGD</td></tr>
+                        -->
+                        </tbody>
+                     </table>
+                    </div>
+                </div>
+            </form>
+
+            
+        </div>
+    </main>
+
+<script type="module" src="src/js/main.js"></script>
+</body>
+</html>
