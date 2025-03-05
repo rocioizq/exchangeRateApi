@@ -24,7 +24,7 @@ A **Currency Exchange** application that allows users to view real-time exchange
     ```  
 2. Navigate to the project folder:  
     ```bash
-    cd currency-exchange
+    cd exchangeRateApi
     ```  
 3. Open the `index.html` file in your browser.  
 
