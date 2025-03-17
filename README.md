@@ -1,33 +1,34 @@
-# 💱 Currency Exchange - r/argentina-programa
+# 💱 Conversor de Moneda - r/argentina-programa  
 
-A **Currency Exchange** application that allows users to view real-time exchange rates, convert currencies, and select different dates to get historical exchange rates. The app has a clean, user-friendly interface and is fully responsive for all screen sizes.
+Una aplicación de **Conversión de Moneda** que permite a los usuarios ver tasas de cambio en tiempo real, convertir divisas y seleccionar diferentes fechas para obtener tasas históricas. La aplicación tiene una interfaz limpia y fácil de usar, además de ser totalmente responsive para todos los tamaños de pantalla.  
 
-🔗 **[Live Demo](https://exchange-rate-api-lac.vercel.app/)**  
+🔗 **[Demo en Vivo](https://exchange-rate-api-lac.vercel.app/)**  
 
-## ✨ Features  
-✔️ **Currency search** – Allows users to view the exchange rate between the euro and other currencies.  
-✔️ **Responsive design** – Fully optimized for both mobile and desktop screens.  
-✔️ **Date selection** – Users can choose a past date to get historical exchange rates.  
-✔️ **User-friendly interface** – Simple, modern design with intuitive interactivity.  
-✔️ **Dynamic currency loading** – Currencies and exchange rates are fetched directly from the API.
+## ✨ Características  
+✔️ **Búsqueda de moneda** – Permite a los usuarios ver la tasa de cambio entre el euro y otras divisas.  
+✔️ **Diseño responsive** – Totalmente optimizado para dispositivos móviles y pantallas de escritorio.  
+✔️ **Selección de fecha** – Los usuarios pueden elegir una fecha pasada para obtener tasas de cambio históricas.  
+✔️ **Interfaz amigable** – Diseño moderno y simple con interactividad intuitiva.  
+✔️ **Carga dinámica de monedas** – Las monedas y tasas de cambio se obtienen directamente desde la API.  
 
-## 🛠️ Technologies Used  
-- **HTML5** – Structure and content elements.  
-- **CSS3** – Styling and layout with Flexbox for responsiveness.  
-- **JavaScript** – Handles API requests, data rendering, and interactivity.  
-- **API Frankfurter** – For querying historical exchange rates.  
+## 🛠️ Tecnologías Utilizadas  
+- **HTML5** – Estructura y contenido de la aplicación.  
+- **CSS3** – Estilos y diseño con Flexbox para una mejor adaptabilidad.  
+- **JavaScript** – Manejo de solicitudes a la API, renderización de datos e interactividad.  
+- **API Frankfurter** – Para consultar tasas de cambio históricas.  
 
-## 🚀 How to Run the Project Locally  
-1. Clone the repository:  
+## 🚀 Cómo Ejecutar el Proyecto Localmente  
+1. Clona el repositorio:  
     ```bash
     git clone https://github.com/rocioizq/exchangeRateApi.git
     ```  
-2. Navigate to the project folder:  
+2. Accede a la carpeta del proyecto:  
     ```bash
     cd exchangeRateApi
     ```  
-3. Open the `index.html` file in your browser.  
+3. Abre el archivo `index.html` en tu navegador.  
 
-## 📷 Screenshots  
-![Currency exchange interface](/src/images/first-image.png)  
-![Currency results](/src/images/second-image.png)  
+## 📷 Capturas de Pantalla  
+![Interfaz del conversor de moneda](/src/images/first-image.png)  
+![Resultados de conversión](/src/images/second-image.png)  
+
